@@ -1,0 +1,562 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Audio:PCM5100 U3
+U 1 1 61AC91D6
+P 3700 3100
+F 0 "U3" H 3350 3650 50  0000 C CNN
+F 1 "PCM5100" H 4050 2450 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 3650 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/pcm5100.pdf" H 3650 3850 50  0001 C CNN
+	1    3700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pam8901:PAM8901 U4
+U 1 1 61B10ED6
+P 7400 3050
+F 0 "U4" H 7200 3250 60  0000 L CNN
+F 1 "PAM8901" H 7900 2450 60  0000 L CNN
+F 2 "" H 7400 3200 60  0001 C CNN
+F 3 "" H 7400 3200 60  0001 C CNN
+	1    7400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 61B15124
+P 4400 3150
+F 0 "C21" V 4450 3200 50  0000 L CNN
+F 1 "2.2uF" V 4450 2900 50  0000 L CNN
+F 2 "" H 4400 3150 50  0001 C CNN
+F 3 "~" H 4400 3150 50  0001 C CNN
+	1    4400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 61B16895
+P 4400 3700
+F 0 "C22" V 4450 3950 50  0000 R CNN
+F 1 "2.2uF" V 4350 3950 50  0000 R CNN
+F 2 "" H 4400 3700 50  0001 C CNN
+F 3 "~" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 3600 4400 3600
+Wire Wire Line
+	4400 3800 4400 4000
+Wire Wire Line
+	4400 4000 3800 4000
+Wire Wire Line
+	3800 4000 3800 3800
+Wire Wire Line
+	3600 3800 3600 4000
+Wire Wire Line
+	3600 4000 3800 4000
+Connection ~ 3800 4000
+Wire Wire Line
+	3800 4000 3800 4100
+$Comp
+L power:GNDA #PWR034
+U 1 1 61B1AACC
+P 3800 4100
+F 0 "#PWR034" H 3800 3850 50  0001 C CNN
+F 1 "GNDA" H 3805 3927 50  0000 C CNN
+F 2 "" H 3800 4100 50  0001 C CNN
+F 3 "" H 3800 4100 50  0001 C CNN
+	1    3800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 61B1B115
+P 3700 4350
+F 0 "#PWR033" H 3700 4100 50  0001 C CNN
+F 1 "GND" H 3705 4177 50  0000 C CNN
+F 2 "" H 3700 4350 50  0001 C CNN
+F 3 "" H 3700 4350 50  0001 C CNN
+	1    3700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3800 3700 4350
+$Comp
+L Device:R_Small R15
+U 1 1 61B1EE65
+P 4400 2700
+F 0 "R15" V 4350 2900 50  0000 C CNN
+F 1 "470" V 4400 2700 50  0000 C CNN
+F 2 "" H 4400 2700 50  0001 C CNN
+F 3 "~" H 4400 2700 50  0001 C CNN
+	1    4400 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 61B1F41A
+P 4400 2800
+F 0 "R16" V 4450 3000 50  0000 C CNN
+F 1 "470" V 4400 2800 50  0000 C CNN
+F 2 "" H 4400 2800 50  0001 C CNN
+F 3 "~" H 4400 2800 50  0001 C CNN
+	1    4400 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 2700 4300 2700
+Wire Wire Line
+	4200 2800 4300 2800
+Wire Wire Line
+	4400 3000 4400 3050
+Wire Wire Line
+	4200 3000 4400 3000
+Wire Wire Line
+	4400 3300 4400 3250
+Wire Wire Line
+	4200 3300 4400 3300
+$Comp
+L Device:C_Small C26
+U 1 1 61B28E5A
+P 5000 3050
+F 0 "C26" V 5050 3100 50  0000 L CNN
+F 1 "2.2nF" V 5050 2750 50  0000 L CNN
+F 2 "" H 5000 3050 50  0001 C CNN
+F 3 "885012206061" H 5000 3050 50  0001 C CNN
+	1    5000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 61B29769
+P 4800 3050
+F 0 "C23" V 4850 3100 50  0000 L CNN
+F 1 "2.2nF" V 4700 2950 50  0000 L CNN
+F 2 "" H 4800 3050 50  0001 C CNN
+F 3 "885012206061" H 4800 3050 50  0001 C CNN
+	1    4800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR037
+U 1 1 61B2C735
+P 4800 3200
+F 0 "#PWR037" H 4800 2950 50  0001 C CNN
+F 1 "GNDA" H 4805 3027 50  0000 C CNN
+F 2 "" H 4800 3200 50  0001 C CNN
+F 3 "" H 4800 3200 50  0001 C CNN
+	1    4800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3200 4800 3200
+Wire Wire Line
+	4500 2700 5000 2700
+Wire Wire Line
+	5000 3200 5000 3150
+Wire Wire Line
+	4800 3150 4800 3200
+Connection ~ 4800 3200
+Wire Wire Line
+	4800 2950 4800 2800
+Wire Wire Line
+	4500 2800 4800 2800
+Wire Wire Line
+	5000 2700 5000 2950
+Wire Wire Line
+	5000 2700 5600 2700
+Connection ~ 5000 2700
+Wire Wire Line
+	4800 2800 5600 2800
+Connection ~ 4800 2800
+Text Notes 5200 3100 0    50   ~ 0
+Line Out impedance: 470 Ohm.\nTypical Line In impedance\n(load): 1K to 10K Ohm.
+Text HLabel 3100 2700 0    50   Input ~ 0
+I2S1_TX_WS
+Text HLabel 3100 2800 0    50   Input ~ 0
+I2S1_TX_SDA
+Text HLabel 3100 2900 0    50   Input ~ 0
+I2S1_TX_SCK
+Wire Wire Line
+	3100 2700 3200 2700
+Wire Wire Line
+	3200 2800 3100 2800
+Wire Wire Line
+	3100 2900 3200 2900
+Text Notes 4100 4550 0    50   ~ 0
+3-Wire I²S audio source
+Text Notes 4650 4900 0    50   ~ 0
+MCLK from internal PLL\nNormal filter latency\nI2S Audio data format\n44.1 Khz De-emphasis disabled
+Text Notes 4400 4900 0    50   ~ 0
+Low\nLow\nLow\nLow
+Text Notes 4100 4900 0    50   ~ 0
+SCK\nFLT\nFMT\nDEMP
+Wire Notes Line
+	4050 4450 4050 4950
+Wire Notes Line
+	4050 4950 5900 4950
+Wire Notes Line
+	5900 4950 5900 4450
+Wire Notes Line
+	5900 4450 4050 4450
+Wire Notes Line
+	4050 4550 5900 4550
+Wire Notes Line
+	4350 4950 4350 4550
+Wire Notes Line
+	4600 4550 4600 4950
+Text Notes 4050 2000 0    50   ~ 0
+Decoupling capacitors. \nPlace as close as possible to the affected IC pin.
+$Comp
+L Device:C_Small C20
+U 1 1 61B51A94
+P 4300 1500
+F 0 "C20" V 4350 1550 50  0000 L CNN
+F 1 "100nF" V 4350 1200 50  0000 L CNN
+F 2 "" H 4300 1500 50  0001 C CNN
+F 3 "885012206071" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 61B526E4
+P 6650 4150
+F 0 "C31" H 6742 4196 50  0000 L CNN
+F 1 "100nF" H 6742 4105 50  0000 L CNN
+F 2 "" H 6650 4150 50  0001 C CNN
+F 3 "885012206071" H 6650 4150 50  0001 C CNN
+	1    6650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C19
+U 1 1 61B53D07
+P 4100 1500
+F 0 "C19" V 4150 1550 50  0000 L CNN
+F 1 "10uF" V 4150 1250 50  0000 L CNN
+F 2 "" H 4100 1500 50  0001 C CNN
+F 3 "TAJA106K016RNJ" H 4100 1500 50  0001 C CNN
+	1    4100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C25
+U 1 1 61B55614
+P 4900 1500
+F 0 "C25" V 4950 1550 50  0000 L CNN
+F 1 "10uF" V 4950 1250 50  0000 L CNN
+F 2 "" H 4900 1500 50  0001 C CNN
+F 3 "TAJA106K016RNJ" H 4900 1500 50  0001 C CNN
+	1    4900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 61B55890
+P 5100 1500
+F 0 "C28" V 5150 1550 50  0000 L CNN
+F 1 "100nF" V 5150 1200 50  0000 L CNN
+F 2 "" H 5100 1500 50  0001 C CNN
+F 3 "885012206071" H 5100 1500 50  0001 C CNN
+	1    5100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C29
+U 1 1 61B55C4E
+P 5650 1500
+F 0 "C29" V 5700 1550 50  0000 L CNN
+F 1 "10uF" V 5700 1250 50  0000 L CNN
+F 2 "" H 5650 1500 50  0001 C CNN
+F 3 "TAJA106K016RNJ" H 5650 1500 50  0001 C CNN
+	1    5650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 61B561C8
+P 5850 1500
+F 0 "C30" V 5900 1550 50  0000 L CNN
+F 1 "100nF" V 5900 1200 50  0000 L CNN
+F 2 "" H 5850 1500 50  0001 C CNN
+F 3 "885012206071" H 5850 1500 50  0001 C CNN
+	1    5850 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1800 4900 1800
+Wire Wire Line
+	4900 1600 4900 1800
+Wire Wire Line
+	5100 1600 5100 1800
+Wire Wire Line
+	4300 1800 4100 1800
+Wire Wire Line
+	4300 1600 4300 1800
+Wire Wire Line
+	4100 1600 4100 1800
+Wire Wire Line
+	4100 1800 4000 1800
+Connection ~ 4100 1800
+Wire Wire Line
+	4900 1800 4800 1800
+Connection ~ 4900 1800
+Wire Wire Line
+	5850 1800 5650 1800
+Wire Wire Line
+	5650 1600 5650 1800
+Wire Wire Line
+	5850 1600 5850 1800
+Wire Wire Line
+	5650 1800 5550 1800
+Connection ~ 5650 1800
+$Comp
+L power:GNDA #PWR035
+U 1 1 61B5E6B0
+P 4000 1800
+F 0 "#PWR035" H 4000 1550 50  0001 C CNN
+F 1 "GNDA" V 4005 1673 50  0000 R CNN
+F 2 "" H 4000 1800 50  0001 C CNN
+F 3 "" H 4000 1800 50  0001 C CNN
+	1    4000 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR036
+U 1 1 61B5EDBA
+P 4800 1800
+F 0 "#PWR036" H 4800 1550 50  0001 C CNN
+F 1 "GNDA" V 4805 1673 50  0000 R CNN
+F 2 "" H 4800 1800 50  0001 C CNN
+F 3 "" H 4800 1800 50  0001 C CNN
+	1    4800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 61B5FE49
+P 5550 1800
+F 0 "#PWR039" H 5550 1550 50  0001 C CNN
+F 1 "GND" V 5555 1672 50  0000 R CNN
+F 2 "" H 5550 1800 50  0001 C CNN
+F 3 "" H 5550 1800 50  0001 C CNN
+	1    5550 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 1400 4100 1200
+Wire Wire Line
+	4100 1200 4300 1200
+Wire Wire Line
+	4300 1200 4300 1400
+Wire Wire Line
+	4900 1400 4900 1200
+Wire Wire Line
+	4900 1200 5100 1200
+Wire Wire Line
+	5100 1200 5100 1400
+Wire Wire Line
+	5650 1400 5650 1200
+Wire Wire Line
+	5650 1200 5850 1200
+Wire Wire Line
+	5850 1200 5850 1400
+Wire Wire Line
+	4300 1200 4300 1100
+Connection ~ 4300 1200
+Wire Wire Line
+	5100 1200 5100 1100
+Connection ~ 5100 1200
+Wire Wire Line
+	5850 1200 5850 1100
+Connection ~ 5850 1200
+$Comp
+L Device:C_Small C24
+U 1 1 61B66B86
+P 4800 3700
+F 0 "C24" V 4700 3600 50  0000 L CNN
+F 1 "100nF" V 4850 3400 50  0000 L CNN
+F 2 "" H 4800 3700 50  0001 C CNN
+F 3 "885012206071" H 4800 3700 50  0001 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C27
+U 1 1 61B66DE9
+P 5000 3700
+F 0 "C27" V 5100 3600 50  0000 L CNN
+F 1 "10uF" V 5050 3450 50  0000 L CNN
+F 2 "" H 5000 3700 50  0001 C CNN
+F 3 "TAJA106K016RNJ" H 5000 3700 50  0001 C CNN
+	1    5000 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3500 4800 3500
+Wire Wire Line
+	4800 3500 4800 3600
+Wire Wire Line
+	4800 3500 5000 3500
+Wire Wire Line
+	5000 3500 5000 3600
+Connection ~ 4800 3500
+Wire Wire Line
+	4800 3800 4800 4050
+Wire Wire Line
+	4800 4050 5000 4050
+Wire Wire Line
+	5000 4050 5000 3800
+$Comp
+L power:GND #PWR038
+U 1 1 61B78799
+P 5000 4100
+F 0 "#PWR038" H 5000 3850 50  0001 C CNN
+F 1 "GND" H 5005 3927 50  0000 C CNN
+F 2 "" H 5000 4100 50  0001 C CNN
+F 3 "" H 5000 4100 50  0001 C CNN
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4100 5000 4050
+Connection ~ 5000 4050
+Text Label 4900 3500 0    50   ~ 0
++1.8V
+Text Notes 5150 4000 0    50   ~ 0
+Decoupling capacitors. \nPlace as close as possible\nto the affected IC pin.
+Text Label 4300 3500 0    50   ~ 0
+AUDIO_LDOO
+$Comp
+L Device:D_Small D3
+U 1 1 61B9C857
+P 2000 3150
+F 0 "D3" H 2000 3357 50  0000 C CNN
+F 1 "BAT30KFILM" H 2000 3266 50  0000 C CNN
+F 2 "" V 2000 3150 50  0001 C CNN
+F 3 "~" V 2000 3150 50  0001 C CNN
+	1    2000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 61B9F549
+P 2400 3600
+F 0 "C18" V 2500 3500 50  0000 L CNN
+F 1 "10uF" V 2450 3350 50  0000 L CNN
+F 2 "" H 2400 3600 50  0001 C CNN
+F 3 "EMK316B7106KL-TD" H 2400 3600 50  0001 C CNN
+	1    2400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 61BA0559
+P 2250 3600
+F 0 "R14" V 2150 3500 50  0000 L CNN
+F 1 "10K" V 2300 3350 50  0000 L CNN
+F 2 "" H 2250 3600 50  0001 C CNN
+F 3 "~" H 2250 3600 50  0001 C CNN
+	1    2250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 61BA0A9A
+P 2000 3400
+F 0 "R13" V 2100 3400 50  0000 C CNN
+F 1 "5K9" V 1900 3400 50  0000 C CNN
+F 2 "" H 2000 3400 50  0001 C CNN
+F 3 "~" H 2000 3400 50  0001 C CNN
+	1    2000 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 3400 2250 3400
+Wire Wire Line
+	2250 3400 2250 3500
+Wire Wire Line
+	2250 3400 2400 3400
+Wire Wire Line
+	2400 3400 2400 3500
+Connection ~ 2250 3400
+Wire Wire Line
+	2400 3700 2400 3900
+Wire Wire Line
+	2400 3900 2250 3900
+Wire Wire Line
+	2250 3900 2250 3700
+$Comp
+L power:GND #PWR032
+U 1 1 61BAA344
+P 2400 3950
+F 0 "#PWR032" H 2400 3700 50  0001 C CNN
+F 1 "GND" H 2405 3777 50  0000 C CNN
+F 2 "" H 2400 3950 50  0001 C CNN
+F 3 "" H 2400 3950 50  0001 C CNN
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3950 2400 3900
+Connection ~ 2400 3900
+Wire Wire Line
+	2100 3150 2250 3150
+Wire Wire Line
+	2250 3150 2250 3400
+Wire Wire Line
+	1900 3150 1600 3150
+Wire Wire Line
+	1900 3400 1600 3400
+Wire Wire Line
+	3200 3400 2400 3400
+Connection ~ 2400 3400
+Text HLabel 1600 3150 0    50   Input ~ 0
+AUDIO_MUTE
+Text Label 2550 3400 0    50   ~ 0
+AUDIO_XSMT
+Text HLabel 1600 3400 0    50   Input ~ 0
+5V
+Text Notes 1550 4500 0    50   ~ 0
+Typical "5V" voltage after\nPMEG3020EH schottky: 4.83 V.\nDivider output: 3.038 V.
+Text HLabel 4300 1100 1    50   Input ~ 0
+3V3A
+Text HLabel 5100 1100 1    50   Input ~ 0
+3V3A
+Text HLabel 5850 1100 1    50   Input ~ 0
+3V3
+Text Label 5850 1200 0    50   ~ 0
+AUDIO_DVDD
+Text Label 5100 1200 0    50   ~ 0
+AUDIO_3V3A
+Text Label 4300 1200 0    50   ~ 0
+AUDIO_CPVDD
+Text Label 3800 2450 1    50   ~ 0
+AUDIO_3V3A
+Text Label 3700 2450 1    50   ~ 0
+AUDIO_DVDD
+Wire Wire Line
+	3800 2500 3800 2450
+Wire Wire Line
+	3700 2500 3700 2450
+Text Label 3600 2450 1    50   ~ 0
+AUDIO_CPVDD
+Wire Wire Line
+	3600 2500 3600 2450
+$EndSCHEMATC
