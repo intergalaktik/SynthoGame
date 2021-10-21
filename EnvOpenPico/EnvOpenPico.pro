@@ -1,4 +1,4 @@
-update=utorak, 19. listopada 2021. 23:11:22 CEST
+update=četvrtak, 21. listopada 2021. 12:41:10 CEST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=EnvOpenPico_2.net
+LastNetListRead=EnvOpenPico.net
 CopperLayerCount=2
 BoardThickness=1
 AllowMicroVias=0
@@ -75,7 +75,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0.09
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
