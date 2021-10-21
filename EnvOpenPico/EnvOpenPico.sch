@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Raspberry Pi Pico Clone"
 Date "2020-12-18"
 Rev "REV1"
@@ -1564,4 +1564,19 @@ Text Label 13300 3150 0    39   ~ 0
 VSYS
 Wire Wire Line
 	13300 3150 13550 3150
+$Sheet
+S 13550 3700 1600 1150
+U 61FD836B
+F0 "RGB_array" 50
+F1 "RGB_array.sch" 50
+F2 "5V" I L 13550 3950 50 
+F3 "DIN" I L 13550 4200 50 
+F4 "DOUT" O R 15150 4200 50 
+$EndSheet
+Wire Wire Line
+	13550 3950 13350 3950
+Wire Wire Line
+	13550 4200 13350 4200
+Text Label 13350 3950 0    39   ~ 0
+VSYS
 $EndSCHEMATC
