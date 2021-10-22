@@ -1090,4 +1090,47 @@ Wire Wire Line
 	10000 3250 10000 3400
 Text Label 10000 2850 0    50   ~ 0
 5V
+$Comp
+L FH12-6S-0.5SH_55_:FH12-6S-0.5SH_55_ J5
+U 1 1 6249AFDD
+P 1900 3700
+F 0 "J5" H 2300 3965 50  0000 C CNN
+F 1 "FH12-6S-0.5SH_55_" H 2300 3874 50  0000 C CNN
+F 2 "Hirose-FH12-6S-0:FH12-6S-0.5SH_55__1" H 2550 3800 50  0001 L CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/FH12-6S-0.5SH%2855%29/category/Drawing%20(2D)/doc_file_id/75611/?file_category_id=6&item_id=05860582555&is_series=" H 2550 3700 50  0001 L CNN
+F 4 "HIROSE(HRS) - FH12-6S-0.5SH(55) - FFC/FPC CONNECTOR, RECEPTACLE, 6POS 1ROW" H 2550 3600 50  0001 L CNN "Description"
+F 5 "" H 2550 3500 50  0001 L CNN "Height"
+F 6 "Hirose" H 2550 3400 50  0001 L CNN "Manufacturer_Name"
+F 7 "FH12-6S-0.5SH(55)" H 2550 3300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "798-FH12-6S-0.5SH55" H 2550 3200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-6S-05SH55?qs=Ux3WWAnHpjC%252BfBkf%252BkEyew%3D%3D" H 2550 3100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "FH12-6S-0.5SH(55)" H 2550 3000 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/fh12-6s-0.5sh-55/hirose-electric" H 2550 2900 50  0001 L CNN "Arrow Price/Stock"
+	1    1900 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 3700 0    50   Input ~ 0
+Touch_RST
+Text HLabel 1800 3800 0    50   Input ~ 0
+Touch_VDD
+Text HLabel 1800 3900 0    50   Input ~ 0
+Touch_GND
+Text HLabel 2800 3700 2    50   Output ~ 0
+Touch_INT
+Text HLabel 2800 3800 2    50   Input ~ 0
+Touch_SCL
+Text HLabel 2800 3900 2    50   BiDi ~ 0
+Touch_SDA
+Wire Wire Line
+	2700 3700 2800 3700
+Wire Wire Line
+	2700 3800 2800 3800
+Wire Wire Line
+	2700 3900 2800 3900
+Wire Wire Line
+	1800 3700 1900 3700
+Wire Wire Line
+	1800 3800 1900 3800
+Wire Wire Line
+	1800 3900 1900 3900
 $EndSCHEMATC
