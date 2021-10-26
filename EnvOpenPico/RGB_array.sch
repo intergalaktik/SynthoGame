@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -1091,9 +1091,11 @@ Wire Wire Line
 Text Label 10000 2850 0    50   ~ 0
 5V
 $Comp
-L FH12-6S-0.5SH_55_:FH12-6S-0.5SH_55_ J5
+L EnvOpenPico-rescue:FH12-6S-0.5SH_55_-FH12-6S-0.5SH_55_ J5
 U 1 1 6249AFDD
 P 1900 3700
+AR Path="/6249AFDD" Ref="J5"  Part="1" 
+AR Path="/61FD836B/6249AFDD" Ref="J5"  Part="1" 
 F 0 "J5" H 2300 3965 50  0000 C CNN
 F 1 "FH12-6S-0.5SH_55_" H 2300 3874 50  0000 C CNN
 F 2 "Hirose-FH12-6S-0:FH12-6S-0.5SH_55__1" H 2550 3800 50  0001 L CNN
