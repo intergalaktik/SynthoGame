@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 6
-Title "Raspberry Pi Pico Clone"
-Date "2020-12-18"
+Title "SynthoGame"
+Date "2021-10-26"
 Rev "REV1"
-Comp "Envious.Design"
+Comp "Intergalaktik d.o.o."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -999,17 +999,6 @@ F 3 "" H 1300 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L logo:LOGO #G1
-U 1 1 608B0F05
-P 12150 10200
-F 0 "#G1" H 12150 10017 60  0001 C CNN
-F 1 "LOGO" H 12150 10383 60  0001 C CNN
-F 2 "EnvExtras:logo" H 12150 10200 50  0001 C CNN
-F 3 "" H 12150 10200 50  0001 C CNN
-	1    12150 10200
-	1    0    0    -1  
-$EndComp
-$Comp
 L W25Q256JVEIQ_TR:W25Q256JVEIQ_TR FLASH1
 U 1 1 608EDADA
 P 3100 5250
@@ -1029,12 +1018,12 @@ Wire Wire Line
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 608CE996
-P 12650 10250
-F 0 "#LOGO1" H 12650 10525 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 12650 10025 50  0001 C CNN
-F 2 "EnvExtras:logo" H 12650 10250 50  0001 C CNN
-F 3 "~" H 12650 10250 50  0001 C CNN
-	1    12650 10250
+P 12300 10250
+F 0 "#LOGO1" H 12300 10525 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12300 10025 50  0001 C CNN
+F 2 "EnvExtras:logo" H 12300 10250 50  0001 C CNN
+F 3 "~" H 12300 10250 50  0001 C CNN
+	1    12300 10250
 	1    0    0    -1  
 $EndComp
 Text Notes 2600 9100 0    50   ~ 0

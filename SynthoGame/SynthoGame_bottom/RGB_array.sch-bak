@@ -1091,7 +1091,7 @@ Wire Wire Line
 Text Label 10000 2850 0    50   ~ 0
 5V
 $Comp
-L EnvOpenPico-rescue:FH12-6S-0.5SH_55_-FH12-6S-0.5SH_55_ J5
+L SynthoGame-rescue:FH12-6S-0.5SH_55_-FH12-6S-0.5SH_55_ J5
 U 1 1 6249AFDD
 P 1900 3700
 AR Path="/6249AFDD" Ref="J5"  Part="1" 

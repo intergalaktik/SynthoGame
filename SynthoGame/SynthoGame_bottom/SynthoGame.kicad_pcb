@@ -11,10 +11,10 @@
 
   (page User 200 200)
   (title_block
-    (title "Env Open Pico")
+    (title "SynthoGame")
     (date 2021-09-14)
     (rev REV1)
-    (company Envious.Design)
+    (company Intergalaktik)
   )
 
   (layers

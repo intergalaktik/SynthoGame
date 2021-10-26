@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=EnvOpenPico.net
+LastNetListRead=SynthoGame.net
 CopperLayerCount=2
 BoardThickness=1
 AllowMicroVias=0
