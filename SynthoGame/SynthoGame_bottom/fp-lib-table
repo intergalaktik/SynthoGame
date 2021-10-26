@@ -10,5 +10,5 @@
   (lib (name RT6150B-33GQW)(type KiCad)(uri ${KIPRJMOD}/../Resources/RT6150B-33GQW)(options "")(descr ""))
   (lib (name audio-jack)(type KiCad)(uri ${KIPRJMOD}/../Resources/audio-jack/audio-jack.pretty)(options "")(descr ""))
   (lib (name PAM8908)(type KiCad)(uri ${KIPRJMOD}/../Resources/PAM8908)(options "")(descr ""))
-  (lib (name Hirose-FH12-6S-0)(type KiCad)(uri "${KIPRJMOD}/../Resources/Hirose-FH12-6S-0.5SH(55)")(options "")(descr ""))
+  (lib (name Hirose-FH12-6S-0)(type KiCad)(uri ${KIPRJMOD}/../Resources/Hirose-FH12)(options "")(descr ""))
 )
