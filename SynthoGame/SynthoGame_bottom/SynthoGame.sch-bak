@@ -1835,4 +1835,107 @@ Wire Wire Line
 Connection ~ 6000 1400
 Text Label 7400 900  0    39   ~ 0
 VSYS
+$Comp
+L Device:Rotary_Encoder_Switch SW5
+U 1 1 61B10B1D
+P 12100 8450
+F 0 "SW5" H 12100 8817 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 12100 8726 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 11950 8610 50  0001 C CNN
+F 3 "~" H 12100 8710 50  0001 C CNN
+	1    12100 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW1
+U 1 1 61B12D66
+P 11075 7750
+F 0 "SW1" H 11075 8031 50  0000 C CNN
+F 1 "SW_Push_45deg" H 11075 7940 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR" H 11075 7750 50  0001 C CNN
+F 3 "~" H 11075 7750 50  0001 C CNN
+	1    11075 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW2
+U 1 1 61B149BA
+P 11075 8250
+F 0 "SW2" H 11075 8531 50  0000 C CNN
+F 1 "SW_Push_45deg" H 11075 8440 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR" H 11075 8250 50  0001 C CNN
+F 3 "~" H 11075 8250 50  0001 C CNN
+	1    11075 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW3
+U 1 1 61B14A6A
+P 11075 8750
+F 0 "SW3" H 11075 9031 50  0000 C CNN
+F 1 "SW_Push_45deg" H 11075 8940 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR" H 11075 8750 50  0001 C CNN
+F 3 "~" H 11075 8750 50  0001 C CNN
+	1    11075 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW4
+U 1 1 61B14B1A
+P 11075 9250
+F 0 "SW4" H 11075 9531 50  0000 C CNN
+F 1 "SW_Push_45deg" H 11075 9440 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR" H 11075 9250 50  0001 C CNN
+F 3 "~" H 11075 9250 50  0001 C CNN
+	1    11075 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B9125F
+P 10900 10200
+F 0 "H?" H 11000 10246 50  0000 L CNN
+F 1 "MountingHole" H 11000 10155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10900 10200 50  0001 C CNN
+F 3 "" H 10900 10200 50  0001 C CNN
+F 4 " " H 10900 10200 50  0001 C CNN "LCSC"
+	1    10900 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B91B96
+P 10900 10400
+F 0 "H?" H 11000 10446 50  0000 L CNN
+F 1 "MountingHole" H 11000 10355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10900 10400 50  0001 C CNN
+F 3 "" H 10900 10400 50  0001 C CNN
+F 4 " " H 10900 10400 50  0001 C CNN "LCSC"
+	1    10900 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B91C8D
+P 10900 10600
+F 0 "H?" H 11000 10646 50  0000 L CNN
+F 1 "MountingHole" H 11000 10555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10900 10600 50  0001 C CNN
+F 3 "" H 10900 10600 50  0001 C CNN
+F 4 " " H 10900 10600 50  0001 C CNN "LCSC"
+	1    10900 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B91D90
+P 10900 10800
+F 0 "H?" H 11000 10846 50  0000 L CNN
+F 1 "MountingHole" H 11000 10755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10900 10800 50  0001 C CNN
+F 3 "" H 10900 10800 50  0001 C CNN
+F 4 " " H 10900 10800 50  0001 C CNN "LCSC"
+	1    10900 10800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
