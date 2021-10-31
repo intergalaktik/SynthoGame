@@ -17,8 +17,6 @@ Text GLabel 5300 2950 1    50   Input ~ 0
 +3V3
 Text GLabel 5300 4000 3    50   Input ~ 0
 GND
-Text GLabel 5900 3500 2    50   Input ~ 0
-MIDI_IN
 Wire Wire Line
 	4650 3350 4650 3300
 Wire Wire Line
@@ -60,8 +58,6 @@ Wire Wire Line
 	4700 2400 4700 2500
 Text GLabel 7000 2600 1    50   Input ~ 0
 +3V3
-Text GLabel 8550 4650 2    50   Input ~ 0
-MIDI_OUT
 $Comp
 L Device:D D4
 U 1 1 617448D7
@@ -192,8 +188,16 @@ Text HLabel 8550 4500 0    50   Input ~ 0
 IN_MIDI
 Text HLabel 8550 4650 0    50   Output ~ 0
 OUT_MIDI
-Text GLabel 7250 4300 3    50   Input ~ 0
+Wire Wire Line
+	8550 4500 8700 4500
+Wire Wire Line
+	8550 4650 8700 4650
+Text Label 8700 4650 0    50   ~ 0
 MIDI_OUT
-Text GLabel 8550 4500 2    50   Input ~ 0
+Text Label 7250 4300 3    50   ~ 0
+MIDI_OUT
+Text Label 8700 4500 0    50   ~ 0
+MIDI_IN
+Text Label 5900 3500 0    50   ~ 0
 MIDI_IN
 $EndSCHEMATC
