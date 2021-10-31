@@ -2218,8 +2218,6 @@ Text Label 13350 3950 2    50   ~ 0
 GPIO14
 Wire Wire Line
 	13550 3950 13350 3950
-Text Label 15300 4300 0    50   ~ 0
-GPIO7
 Wire Wire Line
 	15150 4300 15300 4300
 Text Label 13400 8600 2    50   ~ 0
@@ -2288,10 +2286,18 @@ Wire Wire Line
 	10500 8400 10500 8550
 Wire Wire Line
 	10150 8400 10150 8550
-Text Label 13400 2550 2    50   ~ 0
-GPIO26_ADC0
-Text Label 13400 2650 2    50   ~ 0
-GPIO27_ADC1
-Text Label 13400 2750 2    50   ~ 0
-GPIO28_ADC2
+Text Label 13350 2650 2    50   ~ 0
+GPIO9
+Text Label 13350 2750 2    50   ~ 0
+GPIO10
+Text Label 13350 2550 2    50   ~ 0
+GPIO11
+Text Label 15300 4300 0    50   ~ 0
+GPIO7
+Wire Wire Line
+	13550 2550 13350 2550
+Wire Wire Line
+	13550 2650 13350 2650
+Wire Wire Line
+	13550 2750 13350 2750
 $EndSCHEMATC

@@ -137,19 +137,6 @@ Text Label 3500 3600 0    50   ~ 0
 Text Label 3500 3750 0    50   ~ 0
 3V3_out
 $Comp
-L power:GND #PWR?
-U 1 1 6183D2FC
-P 7400 4050
-AR Path="/6183D2FC" Ref="#PWR?"  Part="1" 
-AR Path="/617722D3/6183D2FC" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 7400 3800 50  0001 C CNN
-F 1 "GND" H 7405 3877 50  0000 C CNN
-F 2 "" H 7400 4050 50  0001 C CNN
-F 3 "" H 7400 4050 50  0001 C CNN
-	1    7400 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 6183D303
 P 8500 3400
@@ -161,19 +148,6 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 8538 3250 50  0001 C CNN
 F 3 "" H 8500 3400 50  0001 C CNN
 F 4 " " H 8500 3400 50  0001 C CNN "LCSC"
 	1    8500 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6183D309
-P 8500 3600
-AR Path="/6183D309" Ref="#PWR?"  Part="1" 
-AR Path="/617722D3/6183D309" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 8500 3350 50  0001 C CNN
-F 1 "GND" H 8350 3550 50  0000 C CNN
-F 2 "" H 8500 3600 50  0001 C CNN
-F 3 "" H 8500 3600 50  0001 C CNN
-	1    8500 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -210,26 +184,13 @@ F 4 " " H 7750 3550 50  0001 C CNN "LCSC"
 	1    7750 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6183D320
-P 7750 3750
-AR Path="/6183D320" Ref="#PWR?"  Part="1" 
-AR Path="/617722D3/6183D320" Ref="#PWR077"  Part="1" 
-F 0 "#PWR077" H 7750 3500 50  0001 C CNN
-F 1 "GND" H 7600 3700 50  0000 C CNN
-F 2 "" H 7750 3750 50  0001 C CNN
-F 3 "" H 7750 3750 50  0001 C CNN
-	1    7750 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7750 3750 7750 3700
 Wire Wire Line
 	7750 3400 7750 3350
 Wire Wire Line
 	7750 3350 7700 3350
-Text Notes 7500 4200 0    50   Italic 0
+Text Notes 7550 4350 0    50   Italic 0
 Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not.
 Wire Wire Line
 	7100 3250 6750 3250
@@ -247,4 +208,37 @@ Text Label 3500 3950 0    50   ~ 0
 3V3A_out
 Wire Wire Line
 	3200 3950 3500 3950
+$Comp
+L power:GNDA #PWR?
+U 1 1 61E3B807
+P 7400 4050
+F 0 "#PWR?" H 7400 3800 50  0001 C CNN
+F 1 "GNDA" H 7405 3877 50  0000 C CNN
+F 2 "" H 7400 4050 50  0001 C CNN
+F 3 "" H 7400 4050 50  0001 C CNN
+	1    7400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 61E3BBAD
+P 7750 3750
+F 0 "#PWR?" H 7750 3500 50  0001 C CNN
+F 1 "GNDA" H 7755 3577 50  0000 C CNN
+F 2 "" H 7750 3750 50  0001 C CNN
+F 3 "" H 7750 3750 50  0001 C CNN
+	1    7750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 61E3BFAB
+P 8500 3600
+F 0 "#PWR?" H 8500 3350 50  0001 C CNN
+F 1 "GNDA" H 8505 3427 50  0000 C CNN
+F 2 "" H 8500 3600 50  0001 C CNN
+F 3 "" H 8500 3600 50  0001 C CNN
+	1    8500 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
