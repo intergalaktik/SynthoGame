@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/internal/projects/intergalaktik/SynthoGame/SynthoGame/SynthoGame_top/SynthoGame_top.sch)
-    (date "utorak, 26. listopada 2021. 16:55:17 CEST")
+    (date "nedjelja, 31. listopada 2021. 12:33:11 CET")
     (tool "Eeschema 5.1.9+dfsg1-1~bpo10+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -255,7 +255,7 @@
     (library (logical Device)
       (uri /usr/share/kicad/library/Device.lib))
     (library (logical at42qt1244)
-      (uri /media/internal/projects/intergalaktik/EnvOpenPico/SynthoGame/Resources/AT42QT1244/at42qt1244.lib)))
+      (uri /media/internal/projects/intergalaktik/SynthoGame/SynthoGame/SynthoGame_top/../Resources/AT42QT1244/at42qt1244.lib)))
   (nets
     (net (code 1) (name "Net-(R38-Pad2)")
       (node (ref R38) (pin 2))
