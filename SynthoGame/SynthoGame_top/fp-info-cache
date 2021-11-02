@@ -1,25 +1,4 @@
-19227101312523821
-2.54mmheadercastelation
-PinHeader_1x20_P2.54mm_Vertical_castelated
-Through hole straight pin header, 1x20, 2.54mm pitch, single row
-Through hole pin header THT 1x20 2.54mm single row
-0
-40
-20
-2.54mmheadercastelation
-PinHeader_1x20_P2.54mm_Vertical_castelated_mirror
-Through hole straight pin header, 1x20, 2.54mm pitch, single row
-Through hole pin header THT 1x20 2.54mm single row
-0
-40
-20
-ABM3-12.000MHZ-D2Y-T
-XTAL500X320X130N
-
-
-0
-2
-2
+19191125642965892
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50735,13 +50714,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-EnvExtras
-logo
-
-
-0
-0
-0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -51603,69 +51575,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-HRO-TYPE-C31-M-12
-12401598E4#2A
-
-
-0
-28
-28
-HRO-TYPE-C31-M-12
-HRO-TYPE-C-31-M-12
-
-
-0
-16
-13
-HRO-TYPE-C31-M-12
-HRO-TYPE-C-31-M-12-Assembly
-
-
-0
-16
-13
-HRO-TYPE-C31-M-12
-HRO-TYPE-C-31-M-12-HandSoldering
-
-
-0
-16
-13
-HRO-TYPE-C31-M-12
-HRO-TYPE-C-31-M-13
-
-
-0
-16
-13
-HRO-TYPE-C31-M-12
-USB_C_GCT_USB4085
-
-
-0
-20
-17
-HRO-TYPE-C31-M-12
-Wurth-632723300011
-
-
-0
-32
-27
-HRO-TYPE-C31-M-12
-Wurth-632723300011-HandSoldering
-
-
-0
-30
-26
-HRO-TYPE-C31-M-12
-Wurth-632723300011-MaximumExtensionMount
-
-
-0
-32
-27
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -51757,13 +51666,6 @@ heatsink
 0
 2
 1
-Hirose-FH12-6S-0
-FH12-6S-0.5SH_55__1
-FH12-6S-0.5SH(55)
-Connector
-0
-8
-8
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -58764,13 +58666,6 @@ Mounting 4.5mm 9774100982
 0
 8
 1
-NCP1117ST33T3G
-SOT230P700X180-4N
-
-
-0
-4
-4
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -59800,13 +59695,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PAM8908
-QFN80P500X500X80-17N
-
-
-0
-17
-17
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -74500,34 +74388,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-RP2040_minimal
-Crystal_SMD_HC49-US
-SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
-SMD SMT crystal
-0
-2
-2
-RP2040_minimal
-RP2040-QFN-56
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-70
-57
-RP2040_minimal
-USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified
-Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
-USB USB_B USB_micro USB_OTG
-0
-17
-6
-RT6150B-33GQW
-SON50P250X250X80-11N
-
-
-0
-11
-11
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
@@ -83075,24 +82935,10 @@ varistor SIOV
 0
 2
 2
-W25Q16JVSSIQ
-SOIC127P790X216-8N
+touch_pad
+touch_pad
 
 
 0
-8
-8
-W25Q256JVEIQ_TR
-SON127P800X600X80-9N
-
-
-0
-9
-9
-audio-jack
-CUI_SJ-43516-SMT
-CUI 6-pin audio jack SMT
-audio jack
-0
-6
-6
+16
+2
