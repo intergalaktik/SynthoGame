@@ -24,24 +24,14 @@ F 3 "~" H 7200 3800 50  0001 C CNN
 	1    7200 3800
 	1    0    0    -1  
 $EndComp
-Text HLabel 6950 3600 0    50   BiDi ~ 0
+Text HLabel 7550 3600 2    50   BiDi ~ 0
 SDA
-Text HLabel 6950 3700 0    50   BiDi ~ 0
+Text HLabel 7550 3700 2    50   BiDi ~ 0
 SCL
-Text HLabel 6950 3800 0    50   Input ~ 0
+Text HLabel 7550 3900 2    50   Input ~ 0
 RST
-Text HLabel 6950 3900 0    50   Input ~ 0
-A0
-Text HLabel 6950 4000 0    50   Input ~ 0
-A1
-Text HLabel 7550 3600 2    50   Input ~ 0
-M_SYNC
-Text HLabel 7550 3700 2    50   Output ~ 0
-S_SYNC
 Text HLabel 7550 3800 2    50   Output ~ 0
 CHANGE
-Text HLabel 7550 3900 2    50   Output ~ 0
-DBG_CLK
 Text HLabel 7550 4000 2    50   Input ~ 0
 3V3
 Text HLabel 7550 4100 2    50   Input ~ 0
@@ -72,4 +62,14 @@ Wire Wire Line
 	7500 4000 7550 4000
 Wire Wire Line
 	7500 4100 7550 4100
+Text HLabel 6950 4000 0    50   Input ~ 0
+3V3
+Text HLabel 6950 3600 0    50   Input ~ 0
+BTN_LED_1
+Text HLabel 6950 3700 0    50   Input ~ 0
+BTN_LED_2
+Text HLabel 6950 3800 0    50   Input ~ 0
+BTN_LED_3
+Text HLabel 6950 3900 0    50   Input ~ 0
+BTN_LED_4
 $EndSCHEMATC
