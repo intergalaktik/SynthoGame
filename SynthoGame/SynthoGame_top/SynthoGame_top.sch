@@ -326,17 +326,17 @@ Wire Wire Line
 	6700 2075 6850 2075
 Text Label 6850 2075 0    50   ~ 0
 X6
-Text Label 6850 1475 0    50   ~ 0
-X0
-Text Label 6850 1575 0    50   ~ 0
-X1
-Text Label 6850 1675 0    50   ~ 0
-X2
-Text Label 6850 1775 0    50   ~ 0
-X3
-Text Label 6850 1875 0    50   ~ 0
-X4
 Text Label 6850 1975 0    50   ~ 0
+X0
+Text Label 6850 1875 0    50   ~ 0
+X1
+Text Label 6850 1775 0    50   ~ 0
+X2
+Text Label 6850 1675 0    50   ~ 0
+X3
+Text Label 6850 1575 0    50   ~ 0
+X4
+Text Label 6850 1475 0    50   ~ 0
 X5
 Text Label 3700 2775 0    50   ~ 0
 Y0
@@ -374,7 +374,7 @@ Text GLabel 8850 1975 2    39   Input ~ 0
 Text GLabel 8350 2175 0    50   Input ~ 0
 GND
 Text GLabel 8350 2075 0    50   Input ~ 0
-3V3
++3V3
 Text GLabel 8850 2175 2    50   Input ~ 0
 GND
 Text GLabel 8850 1875 2    50   Output ~ 0
@@ -1153,7 +1153,7 @@ BTN_LED_3
 Text GLabel 8350 1975 0    50   Input ~ 0
 BTN_LED_4
 Text GLabel 8850 2075 2    50   Input ~ 0
-3V3
++3V3
 Wire Wire Line
 	10775 5575 10550 5575
 Wire Wire Line

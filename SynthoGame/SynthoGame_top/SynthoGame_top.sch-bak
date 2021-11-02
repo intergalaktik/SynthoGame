@@ -326,17 +326,17 @@ Wire Wire Line
 	6700 2075 6850 2075
 Text Label 6850 2075 0    50   ~ 0
 X6
-Text Label 6850 1475 0    50   ~ 0
-X0
-Text Label 6850 1575 0    50   ~ 0
-X1
-Text Label 6850 1675 0    50   ~ 0
-X2
-Text Label 6850 1775 0    50   ~ 0
-X3
-Text Label 6850 1875 0    50   ~ 0
-X4
 Text Label 6850 1975 0    50   ~ 0
+X0
+Text Label 6850 1875 0    50   ~ 0
+X1
+Text Label 6850 1775 0    50   ~ 0
+X2
+Text Label 6850 1675 0    50   ~ 0
+X3
+Text Label 6850 1575 0    50   ~ 0
+X4
+Text Label 6850 1475 0    50   ~ 0
 X5
 Text Label 3700 2775 0    50   ~ 0
 Y0
@@ -970,72 +970,9 @@ F 3 "" H 10250 4700 50  0001 C CNN
 	1    10250 4700
 	1    0    0    -1  
 $EndComp
-Text Label 5525 5325 0    50   ~ 0
+Text Label 10775 5575 0    50   ~ 0
 Y0
-Wire Wire Line
-	1550 4700 1550 5325
-Wire Wire Line
-	1550 5325 2300 5325
-Wire Wire Line
-	3050 4700 3050 5325
-Connection ~ 3050 5325
-Wire Wire Line
-	3050 5325 3800 5325
-Wire Wire Line
-	2300 4700 2300 5325
-Connection ~ 2300 5325
-Wire Wire Line
-	2300 5325 3050 5325
-Wire Wire Line
-	4550 5325 4550 4700
-Wire Wire Line
-	5300 4700 5300 5325
-Wire Wire Line
-	5300 5325 4550 5325
-Wire Wire Line
-	6050 4700 6050 5325
-Wire Wire Line
-	6050 5325 6800 5325
-Wire Wire Line
-	3800 4700 3800 5325
-Connection ~ 3800 5325
-Wire Wire Line
-	6800 4700 6800 5325
-Connection ~ 6800 5325
-Wire Wire Line
-	10775 5325 10550 5325
-Wire Wire Line
-	7550 5325 7550 4700
-Wire Wire Line
-	8300 4700 8300 5325
-Connection ~ 8300 5325
-Wire Wire Line
-	8300 5325 7550 5325
-Wire Wire Line
-	9050 4700 9050 5325
-Connection ~ 9050 5325
-Wire Wire Line
-	9050 5325 8300 5325
-Wire Wire Line
-	9800 4700 9800 5325
-Connection ~ 9800 5325
-Wire Wire Line
-	9800 5325 9050 5325
-Wire Wire Line
-	10550 4700 10550 5325
-Connection ~ 10550 5325
-Wire Wire Line
-	10550 5325 9800 5325
-Wire Wire Line
-	6800 5325 7550 5325
-Connection ~ 7550 5325
-Wire Wire Line
-	3800 5325 4550 5325
-Connection ~ 4550 5325
-Wire Wire Line
-	5300 5325 5525 5325
-Connection ~ 5300 5325
-Text Label 10775 5325 0    50   ~ 0
+Text Label 10775 5425 0    50   ~ 0
 Y1
 NoConn ~ 5150 2675
 NoConn ~ 5150 2975
@@ -1073,30 +1010,16 @@ Wire Wire Line
 	5000 2575 5150 2575
 Text Label 9875 4125 2    50   ~ 0
 X6
-Text Label 875  4125 2    50   ~ 0
+Text Label 775  4125 2    50   ~ 0
 X0
-Text Label 1625 4125 2    50   ~ 0
+Text Label 2275 4125 2    50   ~ 0
 X1
-Text Label 2375 4125 2    50   ~ 0
+Text Label 3775 4125 2    50   ~ 0
 X2
-Text Label 3125 4125 2    50   ~ 0
+Text Label 5275 4125 2    50   ~ 0
 X3
-Text Label 3875 4125 2    50   ~ 0
+Text Label 6800 4125 2    50   ~ 0
 X4
-Text Label 4625 4125 2    50   ~ 0
-X5
-Text Label 5375 4125 2    50   ~ 0
-X0
-Text Label 6125 4125 2    50   ~ 0
-X1
-Text Label 6875 4125 2    50   ~ 0
-X2
-Text Label 7625 4125 2    50   ~ 0
-X3
-Text Label 8375 4125 2    50   ~ 0
-X4
-Text Label 9125 4125 2    50   ~ 0
-X5
 Wire Wire Line
 	875  4125 875  4700
 Wire Wire Line
@@ -1231,4 +1154,99 @@ Text GLabel 8350 1975 0    50   Input ~ 0
 BTN_LED_4
 Text GLabel 8850 2075 2    50   Input ~ 0
 3V3
+Wire Wire Line
+	10775 5575 10550 5575
+Wire Wire Line
+	1550 4700 1550 5575
+Wire Wire Line
+	3050 4700 3050 5575
+Connection ~ 3050 5575
+Wire Wire Line
+	3050 5575 1550 5575
+Wire Wire Line
+	4550 4700 4550 5575
+Connection ~ 4550 5575
+Wire Wire Line
+	4550 5575 3050 5575
+Wire Wire Line
+	6050 4700 6050 5575
+Connection ~ 6050 5575
+Wire Wire Line
+	6050 5575 4550 5575
+Wire Wire Line
+	7550 4700 7550 5575
+Connection ~ 7550 5575
+Wire Wire Line
+	7550 5575 6050 5575
+Wire Wire Line
+	9050 4700 9050 5575
+Connection ~ 9050 5575
+Wire Wire Line
+	9050 5575 7550 5575
+Wire Wire Line
+	10550 4700 10550 5575
+Connection ~ 10550 5575
+Wire Wire Line
+	10550 5575 9050 5575
+Wire Wire Line
+	10775 5425 9800 5425
+Wire Wire Line
+	2300 4700 2300 5425
+Wire Wire Line
+	3800 4700 3800 5425
+Connection ~ 3800 5425
+Wire Wire Line
+	3800 5425 2300 5425
+Wire Wire Line
+	5300 4700 5300 5425
+Connection ~ 5300 5425
+Wire Wire Line
+	5300 5425 3800 5425
+Wire Wire Line
+	6800 4700 6800 5425
+Connection ~ 6800 5425
+Wire Wire Line
+	6800 5425 5300 5425
+Wire Wire Line
+	8300 4700 8300 5425
+Connection ~ 8300 5425
+Wire Wire Line
+	8300 5425 6800 5425
+Wire Wire Line
+	9800 4700 9800 5425
+Connection ~ 9800 5425
+Wire Wire Line
+	9800 5425 8300 5425
+Text Label 8300 4125 2    50   ~ 0
+X5
+Wire Wire Line
+	1625 4125 875  4125
+Wire Wire Line
+	2375 4125 3125 4125
+Wire Wire Line
+	3875 4125 4625 4125
+Wire Wire Line
+	775  4125 875  4125
+Connection ~ 875  4125
+Wire Wire Line
+	2275 4125 2375 4125
+Connection ~ 2375 4125
+Wire Wire Line
+	3775 4125 3875 4125
+Connection ~ 3875 4125
+Wire Wire Line
+	5275 4125 5375 4125
+Wire Wire Line
+	5375 4125 6125 4125
+Connection ~ 5375 4125
+Wire Wire Line
+	6800 4125 6875 4125
+Wire Wire Line
+	6875 4125 7625 4125
+Connection ~ 6875 4125
+Wire Wire Line
+	8300 4125 8375 4125
+Wire Wire Line
+	8375 4125 9125 4125
+Connection ~ 8375 4125
 $EndSCHEMATC
