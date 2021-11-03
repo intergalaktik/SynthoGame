@@ -200,4 +200,11 @@ Text Label 8700 4500 0    50   ~ 0
 MIDI_IN
 Text Label 5900 3500 0    50   ~ 0
 MIDI_IN
+NoConn ~ 7600 3700
+NoConn ~ 6850 3050
+NoConn ~ 6950 3900
+NoConn ~ 3600 3750
+NoConn ~ 2800 3950
+NoConn ~ 2950 3950
+NoConn ~ 2850 3100
 $EndSCHEMATC

@@ -70,8 +70,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 5100 9650 5100
 Wire Wire Line
-	9050 5200 9650 5200
-Wire Wire Line
 	9050 5300 9650 5300
 Wire Wire Line
 	9050 5400 9650 5400
@@ -83,8 +81,6 @@ Wire Wire Line
 	9050 5700 9650 5700
 Wire Wire Line
 	9050 5800 9650 5800
-Wire Wire Line
-	9050 5900 9650 5900
 Wire Wire Line
 	9050 6000 9650 6000
 Wire Wire Line
@@ -151,8 +147,6 @@ Text Label 9650 5000 2    50   ~ 0
 GPIO6
 Text Label 9650 5100 2    50   ~ 0
 GPIO7
-Text Label 9650 5200 2    50   ~ 0
-GPIO8
 Text Label 9650 5300 2    50   ~ 0
 GPIO9
 Text Label 9650 5400 2    50   ~ 0
@@ -165,8 +159,6 @@ Text Label 9650 5700 2    50   ~ 0
 GPIO13
 Text Label 9650 5800 2    50   ~ 0
 GPIO14
-Text Label 9650 5900 2    50   ~ 0
-GPIO15
 Text Label 9650 6000 2    50   ~ 0
 GPIO16
 Text Label 9650 6100 2    50   ~ 0
@@ -1050,10 +1042,6 @@ F 4 " " H 2950 2150 50  0001 C CNN "LCSC"
 	1    2950 2150
 	0    1    1    0   
 $EndComp
-Text GLabel 1650 1700 1    20   Input ~ 0
-USB_D+
-Text GLabel 1600 1600 1    20   Input ~ 0
-USB_D-
 Wire Wire Line
 	1100 1800 1150 1800
 Wire Wire Line
@@ -1074,10 +1062,6 @@ F 4 " " H 800 3400 50  0001 C CNN "LCSC"
 $EndComp
 Text GLabel 800  3400 0    20   Input ~ 0
 GND
-Wire Wire Line
-	1100 1600 1600 1600
-Wire Wire Line
-	1100 1700 1650 1700
 Wire Wire Line
 	11000 2400 11400 2400
 Wire Wire Line
@@ -2258,62 +2242,14 @@ Wire Wire Line
 	10500 8400 10500 8550
 Wire Wire Line
 	10150 8400 10150 8550
-Text Label 12850 2650 2    50   ~ 0
+Text Label 13150 2650 2    50   ~ 0
 GPIO9
-Text Label 12850 2750 2    50   ~ 0
+Text Label 13150 2750 2    50   ~ 0
 GPIO10
-Text Label 12850 2550 2    50   ~ 0
+Text Label 13150 2550 2    50   ~ 0
 GPIO11
 Text Label 15300 4300 0    50   ~ 0
 GPIO7
-Wire Wire Line
-	13550 2550 13350 2550
-Wire Wire Line
-	13550 2650 13350 2650
-Wire Wire Line
-	13550 2750 13350 2750
-$Comp
-L Device:R R34
-U 1 1 61EE91CD
-P 13200 2550
-F 0 "R34" V 13250 2750 50  0000 C CNN
-F 1 "1K" V 13250 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 13130 2550 50  0001 C CNN
-F 3 "" H 13200 2550 50  0001 C CNN
-F 4 " " H 13200 2550 50  0001 C CNN "LCSC"
-	1    13200 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R35
-U 1 1 61EED150
-P 13200 2650
-F 0 "R35" V 13250 2850 50  0000 C CNN
-F 1 "1K" V 13250 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 13130 2650 50  0001 C CNN
-F 3 "" H 13200 2650 50  0001 C CNN
-F 4 " " H 13200 2650 50  0001 C CNN "LCSC"
-	1    13200 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R36
-U 1 1 61EED4E1
-P 13200 2750
-F 0 "R36" V 13250 2950 50  0000 C CNN
-F 1 "1K" V 13250 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 13130 2750 50  0001 C CNN
-F 3 "" H 13200 2750 50  0001 C CNN
-F 4 " " H 13200 2750 50  0001 C CNN "LCSC"
-	1    13200 2750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12850 2550 13050 2550
-Wire Wire Line
-	12850 2650 13050 2650
-Wire Wire Line
-	12850 2750 13050 2750
 $Comp
 L power:GNDA #PWR?
 U 1 1 61F41943
@@ -2483,4 +2419,26 @@ Text Label 13375 9075 2    50   ~ 0
 GPIO22
 Text Label 15150 8650 0    50   ~ 0
 GPIO16
+Wire Wire Line
+	1100 1600 1150 1600
+Wire Wire Line
+	1100 1700 1150 1700
+Text Label 9650 5900 2    50   ~ 0
+GPIO15
+Wire Wire Line
+	9050 5900 9650 5900
+Text Label 9650 5200 2    50   ~ 0
+GPIO8
+Wire Wire Line
+	9050 5200 9650 5200
+NoConn ~ 9050 5200
+NoConn ~ 9050 5900
+NoConn ~ 13550 3000
+NoConn ~ 15150 4200
+Wire Wire Line
+	13150 2550 13550 2550
+Wire Wire Line
+	13150 2650 13550 2650
+Wire Wire Line
+	13150 2750 13550 2750
 $EndSCHEMATC

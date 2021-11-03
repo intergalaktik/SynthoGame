@@ -70,8 +70,6 @@ F 4 " " H 5000 3350 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 3250 6100 3250
-Wire Wire Line
 	5000 3650 5000 4050
 $Comp
 L Device:C CBP?
@@ -167,9 +165,7 @@ F 4 " " H 7400 3350 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 3250 8500 3250
-Wire Wire Line
-	7400 3650 7400 4050
+	7400 3650 7400 4000
 $Comp
 L Device:C CBP?
 U 1 1 6183D31A
@@ -241,4 +237,26 @@ F 3 "" H 8500 3600 50  0001 C CNN
 	1    8500 3600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7700 3250 8500 3250
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 61958885
+P 7100 3975
+F 0 "#FLG0103" H 7100 4050 50  0001 C CNN
+F 1 "PWR_FLAG" H 7100 4148 50  0000 C CNN
+F 2 "" H 7100 3975 50  0001 C CNN
+F 3 "~" H 7100 3975 50  0001 C CNN
+	1    7100 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3975 7100 4000
+Wire Wire Line
+	7100 4000 7400 4000
+Wire Wire Line
+	5300 3250 6100 3250
+Connection ~ 7400 4000
+Wire Wire Line
+	7400 4000 7400 4050
 $EndSCHEMATC
