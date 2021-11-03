@@ -15,4 +15,4 @@ Design by: Damir Prizmić
 
 Intergalaktik Ltd
 
-[RP2040 schematics](https://envious.media)
+[RP2040 schematics by: Envious Media](https://envious.media)
