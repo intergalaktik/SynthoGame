@@ -11,4 +11,5 @@
   (lib (name audio-jack)(type KiCad)(uri ${KIPRJMOD}/../Resources/audio-jack/audio-jack.pretty)(options "")(descr ""))
   (lib (name PAM8908)(type KiCad)(uri ${KIPRJMOD}/../Resources/PAM8908)(options "")(descr ""))
   (lib (name Hirose-FH12-6S-0)(type KiCad)(uri ${KIPRJMOD}/../Resources/Hirose-FH12)(options "")(descr ""))
+  (lib (name overlays)(type KiCad)(uri ${KIPRJMOD}/../Resources/overlays.pretty)(options "")(descr ""))
 )

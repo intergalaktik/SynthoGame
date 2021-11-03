@@ -1008,12 +1008,12 @@ Wire Wire Line
 Wire Wire Line
 	3100 4550 3700 4550
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 608CE996
 P 12350 10250
-F 0 "#LOGO1" H 12350 10525 50  0001 C CNN
+F 0 "LOGO1" H 12350 10525 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 12350 10025 50  0001 C CNN
-F 2 "EnvExtras:logo" H 12350 10250 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 12350 10250 50  0001 C CNN
 F 3 "~" H 12350 10250 50  0001 C CNN
 	1    12350 10250
 	1    0    0    -1  
@@ -2441,4 +2441,26 @@ Wire Wire Line
 	13150 2650 13550 2650
 Wire Wire Line
 	13150 2750 13550 2750
+$Comp
+L logo:LOGO G1
+U 1 1 61A68378
+P 14475 10275
+F 0 "G1" H 14475 10140 60  0001 C CNN
+F 1 "LOGO" H 14475 10410 60  0001 C CNN
+F 2 "overlays:bottom_overlay" H 14475 10275 50  0001 C CNN
+F 3 "" H 14475 10275 50  0001 C CNN
+	1    14475 10275
+	1    0    0    -1  
+$EndComp
+$Comp
+L logo:LOGO G2
+U 1 1 61A6AB74
+P 14475 10275
+F 0 "G2" H 14475 10140 60  0001 C CNN
+F 1 "LOGO" H 14475 10410 60  0001 C CNN
+F 2 "overlays:synthogame_logo" H 14475 10275 50  0001 C CNN
+F 3 "" H 14475 10275 50  0001 C CNN
+	1    14475 10275
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

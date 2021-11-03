@@ -1249,4 +1249,15 @@ Wire Wire Line
 Wire Wire Line
 	8375 4125 9125 4125
 Connection ~ 8375 4125
+$Comp
+L logo:LOGO G1
+U 1 1 61A4E715
+P 8425 6850
+F 0 "G1" H 8425 6715 60  0001 C CNN
+F 1 "LOGO" H 8425 6985 60  0001 C CNN
+F 2 "overlays:top_overlay" H 8425 6850 50  0001 C CNN
+F 3 "" H 8425 6850 50  0001 C CNN
+	1    8425 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /media/internal/projects/intergalaktik/SynthoGame/SynthoGame/SynthoGame_top/SynthoGame_top.sch)
-    (date "utorak, 02. studenoga 2021. 09:54:58 CET")
-    (tool "Eeschema 5.1.9+dfsg1-1~bpo10+1")
+    (source /home/i/projects/synthogame/SynthoGame/SynthoGame/SynthoGame_top/SynthoGame_top.sch)
+    (date "srijeda, 03. studenoga 2021. 02:54:02 CET")
+    (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -378,7 +378,13 @@
       (footprint touch_pad:touch_pad)
       (libsource (lib touch_key) (part touch_key) (description ""))
       (sheetpath (names /) (tstamps /))
-      (tstamp 61A11D2F)))
+      (tstamp 61A11D2F))
+    (comp (ref G1)
+      (value LOGO)
+      (footprint overlays:top_overlay)
+      (libsource (lib logo) (part LOGO) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 61A4E715)))
   (libparts
     (libpart (lib Connector) (part TestPoint)
       (description "test point")
@@ -516,6 +522,10 @@
         (pin (num 30) (name Y0A) (type BiDi))
         (pin (num 31) (name Y1A) (type BiDi))
         (pin (num 32) (name Y2A) (type BiDi))))
+    (libpart (lib logo) (part LOGO)
+      (fields
+        (field (name Reference) "#G")
+        (field (name Value) LOGO)))
     (libpart (lib touch_key) (part touch_key)
       (fields
         (field (name Reference) SW)
@@ -533,9 +543,11 @@
     (library (logical Mechanical)
       (uri /usr/share/kicad/library/Mechanical.lib))
     (library (logical at42qt1244)
-      (uri /media/internal/projects/intergalaktik/SynthoGame/SynthoGame/SynthoGame_top/../Resources/AT42QT1244/at42qt1244.lib))
+      (uri /home/i/projects/synthogame/SynthoGame/SynthoGame/SynthoGame_top/../Resources/AT42QT1244/at42qt1244.lib))
+    (library (logical logo)
+      (uri /home/i/projects/synthogame/SynthoGame/SynthoGame/SynthoGame_top/../Resources/overlays.pretty/logo.lib))
     (library (logical touch_key)
-      (uri /media/internal/projects/intergalaktik/SynthoGame/SynthoGame/SynthoGame_top/touch_key.lib)))
+      (uri /home/i/projects/synthogame/SynthoGame/SynthoGame/SynthoGame_top/touch_key.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref U7) (pin 21))

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name touch_pad)(type KiCad)(uri ${KIPRJMOD}/touch_pad.pretty)(options "")(descr ""))
+  (lib (name overlays)(type KiCad)(uri ${KIPRJMOD}/../Resources/overlays.pretty)(options "")(descr ""))
 )
