@@ -8,3 +8,11 @@ RP2040 base Synth
 ![SynthoGame touch board - top side](https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/SynthoGame_top/pic/SynthoGame_top.png?raw=true)
 
 ![SynthoGame touch board - bottom side](https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/SynthoGame_top/pic/SynthoGame_bottom.png?raw=true)
+
+Design by: Damir Prizmić
+
+[Hyperglitch Ltd](https://hyperglitch.com)
+
+Intergalaktik Ltd
+
+[RP2040 schematics](https://envious.media)
