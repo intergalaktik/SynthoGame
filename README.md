@@ -41,7 +41,7 @@ Beside RP2040 microcontroller Synthogame has USB-C connector (power and communic
 
 <img src="https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/Documentation/synthogame_final_05.jpg" width="640">
 
-[![Watch the video](https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/SynthoGame_bottom/pic/SynthoGame_bottom.png)](https://youtu.be/HBAlY6ak0zU)
+[![Watch the video](https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/Documentation/synthogame_video.png)](https://youtu.be/HBAlY6ak0zU)
 
 Design by: Damir Prizmić
 
