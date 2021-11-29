@@ -22,6 +22,7 @@ For clarity’s sake, “timbre” is the distinctive character of a sound. The 
 Explanation are taken from: 
 
 https://blog.landr.com/fm-synthesis/
+
 https://cymatics.fm/blogs/production/fm-synthesis
 
 So check those blogs to learn more!
@@ -29,8 +30,6 @@ So check those blogs to learn more!
 Synthogame firmware runs on raspberry pi RP2040 microcontroller.
 
 Beside RP2040 microcontroller Synthogame has USB-C connector (power and communication), DAC (Digital Analog Converter), Sound Amplifyer (headphones), LINE OUT, MIDI IN/OUT, addressable RGB LED array, indication leds, buttons, encoder, touch buttons and touch screen.
-
-Synthogame is completely opensource product by intergalaktik d.o.o. https://github.com/intergalaktik/SynthoGame
 
 ![SynthoGame main board - top side](https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/SynthoGame_bottom/pic/SynthoGame_top.png?raw=true)
 
