@@ -31,9 +31,9 @@ Synthogame firmware runs on raspberry pi RP2040 microcontroller.
 
 Beside RP2040 microcontroller Synthogame has USB-C connector (power and communication), DAC (Digital Analog Converter), Sound Amplifyer (headphones), LINE OUT, MIDI IN/OUT, addressable RGB LED array, indication leds, buttons, encoder, touch buttons and touch screen.
 
-![SynthoGame final1](https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/Documentation/synthogame_final_01.jpg?raw=true)
-
 ![SynthoGame final5](https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/Documentation/synthogame_final_05.jpg?raw=true)
+
+https://youtu.be/HBAlY6ak0zU
 
 ![SynthoGame main board - top side](https://github.com/intergalaktik/SynthoGame/blob/main/SynthoGame/SynthoGame_bottom/pic/SynthoGame_top.png?raw=true)
 
